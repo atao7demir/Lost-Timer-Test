@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>108-Minute Lost-Inspired Break Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lost-Inspired Countdown Timer</h1>
+        <div id="countdown">108:00</div>
+        <p id="alertMessage" style="display:none;">Time's up! Enter the code: 4 8 15 16 23 42</p>
+        <input type="text" id="codeInput" placeholder="Enter the code" style="display:none;">
+        <button id="submitCodeButton" onclick="submitCode()" style="display:none;">Submit Code</button>
+        <p id="errorMessage" style="display:none; color:red;">Incorrect code! Try again.</p>
+    </div>
+    <audio id="errorSound" src="error-sound.mp3"></audio> <!-- error sound -->
+    <script src="script.js"></script>
+</body>
+</html>
