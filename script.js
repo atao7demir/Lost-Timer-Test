@@ -1,4 +1,4 @@
-let countdownTime = 108 * 60; // 108 minutes in seconds
+let countdownTime = 1 * 60; // 1 minute
 let interval;
 const correctCode = "4 8 15 16 23 42"; // Correct code sequence
 let crashStarted = false; // Track if the crash effect has started
